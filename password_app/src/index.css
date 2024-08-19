@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+@layer components {
+  .mycontainer {
+    @apply container px-40 py-16 mx-auto ;
+  }
+}
+
+
+input:focus {
+  @apply outline-none border-purple-800 ring-2 ring-pink-400;
+}
+
